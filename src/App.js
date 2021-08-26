@@ -20,10 +20,16 @@ const Shape = css`
 const Container = styled.div`
   height: 100vh;
   position : relative;
+  @media only screen and (max-width: 550px) {
+    height: auto;
+   }
 `;
 const Container2 = styled.div`
   height: 80vh;
   position : relative;
+  @media only screen and (max-width: 550px) {
+   height: auto;
+  }
 `;
 const IntoShape = styled.div`
   ${Shape}

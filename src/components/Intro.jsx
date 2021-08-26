@@ -64,7 +64,10 @@ const Button = styled.button`
   letter-spacing: 2px;
   cursor: pointer;
   @media only screen and (max-width: 550px) {
-    margin-bottom: 20px;
+    font-size: 17px;
+    margin-top:-10px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
   }
 `;
 

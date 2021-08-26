@@ -38,7 +38,7 @@ const Title = styled.span`
   font-size: 80px;
   margin-top: 5rem;
   @media only screen and (max-width: 550px) {
-    font-size: 50px;
+    font-size: 40px;
   }
 `;
 
@@ -65,6 +65,11 @@ const Button = styled.button`
   border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
+  @media only screen and (max-width: 550px) {
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
 `;
 
 const Feature = () => {

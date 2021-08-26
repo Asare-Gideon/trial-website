@@ -159,12 +159,12 @@ const Contact = () => {
         <AddressContainer>
           <AddressItem>
             <Icon src={Map} />
-            <Text>123 Park Avenue St., New York, USA</Text>
+            <Text>123 Sunyani Fiapre Ghana</Text>
           </AddressItem>
           <AddressItem>
             <Icon src={Phone} />
-            <Text>+1 631 1234 5678</Text>
-            <Text>+1 326 1234 5678</Text>
+            <Text>+233 445 443 33</Text>
+            <Text>+233 454 556 6</Text>
           </AddressItem>
           <AddressItem>
             <Icon src={Send} />

@@ -83,6 +83,10 @@ const Button = styled.button`
   display: flex;
   align-items: center;
   z-index : 88;
+  @media only screen and (max-width: 550px) {
+    font-size:17px;
+    padding: 10px 15px;
+  }
 `;
 
 const Icon = styled.img`
